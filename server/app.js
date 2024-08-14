@@ -19,7 +19,7 @@ connectToMongoDB();
 app.use(cors());
 app.use(express.json());
 app.use("/api/v1/bank", userRoutes);
-app.use("/api/v1/bank", transferRoutes);
+app.use("https://public-bank-for-charity-sachin.netlify.app/api/v1/bank", transferRoutes);
 
 // Default route
 app.get("/", (req, res) => {
