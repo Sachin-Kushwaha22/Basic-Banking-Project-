@@ -6,8 +6,8 @@ import {
 
 const router = express.Router();
 
-router.get("https://public-bank-for-charity-sachin.netlify.app/all-transactions", getAllTransactions);
+router.get("/all-transactions", getAllTransactions);
 
-router.post("https://public-bank-for-charity-sachin.netlify.app/fund-transfer", handleFundTransfer);
+router.post("/fund-transfer", handleFundTransfer);
 
 export default router;
