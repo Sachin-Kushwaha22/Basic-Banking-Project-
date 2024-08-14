@@ -67,6 +67,8 @@ const Transfer = ({ setIsTransfer, user, refetchCustomer }) => {
     }
 
     if (Number(amount) > user.balance) {
+      console.log('eror hai ye to');
+      
       toast.error("Insufficient Balance.");
       return;
     }
