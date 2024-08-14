@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/all-customers" element={<Customers />} />
-        <Route path="/customer-details/:id" element={<CustomerDetail />} />
-        <Route path="/all-transfers" element={<AllTransfers />} />
+        <Route path="https://public-bank-for-charity-sachin.netlify.app/" element={<Homepage />} />
+        <Route path="https://public-bank-for-charity-sachin.netlify.app/all-customers" element={<Customers />} />
+        <Route path="https://public-bank-for-charity-sachin.netlify.app/customer-details/:id" element={<CustomerDetail />} />
+        <Route path="https://public-bank-for-charity-sachin.netlify.app/all-transfers" element={<AllTransfers />} />
       </Routes>
     </>
   );
