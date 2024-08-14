@@ -7,10 +7,10 @@ import {
 
 const router = express.Router();
 
-router.get("/users", getAllUsers);
+router.get("https://public-bank-for-charity-sachin.netlify.app//users", getAllUsers);
 
-router.post("/create-user", createNewUser);
+router.post("https://public-bank-for-charity-sachin.netlify.app//create-user", createNewUser);
 
-router.get("/user/:id", getUserDetails);
+router.get("https://public-bank-for-charity-sachin.netlify.app//user/:id", getUserDetails);
 
 export default router;
