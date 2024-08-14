@@ -18,8 +18,8 @@ connectToMongoDB();
 // middlewares
 app.use(cors());
 app.use(express.json());
-app.use("/api/v1/bank", userRoutes);
-app.use("/api/v1/bank", transferRoutes);
+app.use("https://basic-banking-project-sachin.onrender.com/api/v1/bank", userRoutes);
+app.use("https://basic-banking-project-sachin.onrender.com/api/v1/bank", transferRoutes);
 
 // Default route
 app.get("/", (req, res) => {
