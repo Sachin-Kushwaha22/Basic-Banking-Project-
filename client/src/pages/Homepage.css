@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url('BuenosAires-Bold.eot');
+    src: local('Buenos Aires Bold'), local('BuenosAires-Bold'),
+        url('BuenosAires-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BuenosAires-Bold.woff2') format('woff2'),
+        url('BuenosAires-Bold.woff') format('woff'),
+        url('BuenosAires-Bold.ttf') format('truetype');
+}
+
+
+.body-homepage {
+    height: 100vh;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("bg.png");
+    background-size: cover;
+    background-position: top;
+  }
+
+.home-card{
+    color: white;
+}
+
+.p3{
+    font-size: 5rem;
+    font-weight: bold;
+    padding-left: 60px;
+    margin: 0 !important;
+}
+
+.p2{
+    font-size: 4rem;
+    font-weight: normal;
+    padding-left: 60px;
+    margin: 0 !important;
+}
+
+.p4{
+    font-size: 2rem;
+    max-width: 500px;
+    margin-top: 20px;
+    margin-left: 60px;
+    /* background-color: rgba(43, 44, 46, 0.317); */
+    border-radius: 5px;
+}
+
+.customer-btn{
+    font-size: 2rem;
+    color: rgb(28, 26, 26);
+    background-color: white;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    margin-left: 60px;
+    transition: .3s;
+}
+.customer-btn:hover{
+    background-color: #0050db;
+    color: white;
+    transform: scale(1.1,1.1);
+    transition: .3s ease-in-out;
+}
+.transaction-btn{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.059);
+    border-radius: 3px;
+    border: solid white 2px;
+    outline: none;
+    padding: 10px 25px;
+    margin-left: 30px;
+    transition: .3s;
+}
+
+.transaction-btn:hover{
+    background-color: #0050db;
+    color: white;
+    transform: scale(1.1,1.1);
+    transition: .3s ease-in-out;
+    border: none;
+}
